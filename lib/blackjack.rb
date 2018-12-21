@@ -40,7 +40,7 @@ end
 def hit? num
   # code hit? here
   prompt_user
-  get_user_input
+  input get_user_input
   binding.pry
   if get_user_input == "h"
     new_card = deal_card
