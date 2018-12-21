@@ -35,12 +35,13 @@ def initial_round
   total
 end
 
-def hit?
+def hit? num
   # code hit? here
   prompt_user
   input = get_user_input
   if input == "h"
-    deal_card
+    new_card = deal_card
+    num += new_card
   elsif input == "s"
    end_game
  else
