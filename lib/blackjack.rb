@@ -41,7 +41,7 @@ def hit? num
   # code hit? here
   prompt_user
   input get_user_input
-  binding.pry
+
   if get_user_input == "h"
     new_card = deal_card
     return num += new_card
@@ -53,6 +53,9 @@ def hit? num
      input = get_user_input
   end
 end
+
+  hit? 10
+  binding.pry
 
 
 def invalid_command
