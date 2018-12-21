@@ -36,6 +36,13 @@ end
 
 def hit?
   # code hit? here
+  prompt_user
+  input = get_user_input
+  if "h"
+    deal_card
+  else
+  end_game
+  end
 end
 
 def invalid_command
