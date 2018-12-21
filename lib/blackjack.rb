@@ -38,9 +38,9 @@ def hit?
   # code hit? here
   prompt_user
   input = get_user_input
-  if "h"
+  if input == "h"
     deal_card
-  elsif "s"
+  elsif input == "s"
    end_game
   end
 end
