@@ -38,16 +38,16 @@ end
 def hit? num
   # code hit? here
   prompt_user
-  input = get_user_input
+  get_user_input
   if input == "h"
     new_card = deal_card
     return num += new_card
   elsif input == "s"
-  display_card_total initial_round
- else
-   invalid_command
-   prompt_user
-   input = get_user_input
+    
+  else
+     invalid_command
+     prompt_user
+     input = get_user_input
   end
 end
 
