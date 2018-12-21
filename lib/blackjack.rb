@@ -43,7 +43,7 @@ def hit? num
     new_card = deal_card
     return num += new_card
   elsif input == "s"
-  end_game initial_round
+  display_card_total total
  else
    invalid_command
    prompt_user
