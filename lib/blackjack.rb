@@ -42,6 +42,7 @@ def hit? num
   if input == "h"
     new_card = deal_card
     num += new_card
+    num
   elsif input == "s"
    end_game
  else
