@@ -41,13 +41,14 @@ def hit? num
   input = get_user_input
   if input == "h"
     new_card = deal_card
-    num += new_card
-    num
+    return num += new_card
   elsif input == "s"
-   end_game
+   prompt_user
+   input = get_user_input
  else
    invalid_command
    prompt_user
+      input = get_user_input
   end
 end
 
