@@ -40,8 +40,8 @@ def hit?
   input = get_user_input
   if "h"
     deal_card
-  else
-  end_game
+  elsif "s"
+   end_game
   end
 end
 
