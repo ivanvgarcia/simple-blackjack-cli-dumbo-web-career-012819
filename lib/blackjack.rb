@@ -43,8 +43,9 @@ def hit?
     deal_card
   elsif input == "s"
    end_game
- else 
+ else
    invalid_command
+   prompt_user
   end
 end
 
