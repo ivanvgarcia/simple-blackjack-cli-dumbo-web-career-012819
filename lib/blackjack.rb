@@ -36,6 +36,8 @@ def initial_round
   display_card_total total
 end
 
+initial_round
+
 def hit?
   # code hit? here
 end
