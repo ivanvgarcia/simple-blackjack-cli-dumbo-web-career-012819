@@ -51,7 +51,6 @@ def hit? num
   end
 end
 
-hit? 10
 
 def invalid_command
   # code invalid_command here
