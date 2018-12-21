@@ -32,6 +32,7 @@ def initial_round
   # code #initial_round here
   total = deal_card + deal_card
   display_card_total total
+  total
 end
 
 def hit?
@@ -47,7 +48,7 @@ end
 
 def invalid_command
   # code invalid_command here
-  
+
 end
 
 #####################################################
